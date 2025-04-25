@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="clock"></div>
+    <div id="settings">
+        <label for="minutes">設定分鐘：</label>
+        <input type="number" id="minutes" name="minutes" min="1" max="60">
+        <label for="color">剩餘時間顏色顯示：</label>
+        <select id="color" name="color">
+            <option value="red">紅色</option>
+            <option value="blue">藍色</option>
+            <option value="green">綠色</option>
+            <option value="yellow">黃色</option>
+            <option value="purple">紫色</option>
+            <option value="orange">橙色</option>
+            <option value="pink">粉色</option>
+            <option value="brown">棕色</option>
+            <option value="gray">灰色</option>
+            <option value="black">黑色</option>
+        </select>
+        <button id="start">開始倒數計時</button>
+        <button id="fullscreen">進入全螢幕</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
